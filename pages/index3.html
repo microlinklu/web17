@@ -1,0 +1,94 @@
+﻿<html>
+  <head>
+  	<style>
+  		 *{
+  		
+  		 color:red;
+  		 font-size:30pt;
+  		 }
+  		  .a{
+  		  	background-color:green;
+  		  	font-size:15pt;
+  		  }
+  		  #d{
+  		  	 color:black;
+  		  }
+  		  dt{
+  		  	background-color:pink;
+  		  }
+  		li~li{
+  			color:blue;
+  		}
+  		body{
+  			background-image:url('../images/01.jpg');
+  		  background-position:center bottom;
+  			background-attachment:fixed;
+  			background-repeat:no-repeat;
+  		}  
+  	</style>
+  	
+  </head>
+  <body>
+     <ul>   li+li            
+        <li >条目一</li> 
+        <li >条目二</li>
+        <li >条目三</li>
+        
+        	<ol>   
+     	      <li>条目1</li>
+            <li>条目2</li>
+            <li>条目3</li>
+            <li>条目4</li> 
+     	   </ol>
+     	 
+        <li>条目四</li>  
+     </ul>
+    
+     <dl>
+     	  <dt>饮料</dt>
+     	     <dd class='a'>可乐</dd>
+     	     <dd class='a'>雪碧</dd>
+     	  <dt>水果</dt>
+     	     <dd>苹果</dd>
+     	     <dd>香蕉</dd>
+     </dl>
+     <table border=1px solid black width=100%  cellspacing=0px>
+      <caption>年度销售报表</caption>
+       <tr>
+          <th>一季度</th>
+          <th>二季度</th>
+          <th>二季度</th>
+       </tr>
+       <tr>
+          <td> 
+     <dl>
+     	  <dt>饮料</dt>
+     	     <dd >可乐</dd>
+     	     <dd >雪碧</dd>
+     	  <dt>水果</dt>
+     	     <dd>苹果</dd>
+     	     <dd>香蕉</dd>
+     </dl></td>
+          <td>123</td>
+          <td>123</td>
+       </tr>
+       <tr>
+          <td>112321</td>
+          <td width=300px rowspan=2>1232132sdfdsfds</td>
+          <td>123213</td>
+       </tr>
+       <tr>
+           <td>123213121</td>
+         <!-- <td>1232132132</td> -->
+          <td>1231232132</td>
+       </tr>
+       <tr>
+          <td>1232132</td>
+          <td>1232134</td>
+          <td>54545546</td>
+       
+       </tr>
+     </table>
+     
+  </body>
+</html>

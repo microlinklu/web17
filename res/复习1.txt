@@ -1,0 +1,113 @@
+﻿html   超文本标记语言
+<body>  元素  element  tagname  
+<body>  </body>          双标记
+<input> <br/><hr/>        单标记
+<p1>
+  <p2></p2>
+</p1>
+
+ wenjianming.html
+ 
+ <!doctype html>
+ <html>
+    <head></head>
+    <body width=100px>
+    </body>
+ </html>
+
+ 标记属性：  属性名=属性值
+ 
+ h1--h6
+ hr  分节线 还可用于菜单分割线的处理
+     width  设置线的长度，px % rem   
+     
+ br
+ <p>     </p>
+ a   锚链接
+ <a href=url target=_blank> </a>
+  target=_self
+ img src=图像路径 alt=替换文字 title=信息文字
+      width    height
+ <ul>
+   <li>dfdfds</li>
+    
+ </ul>  
+ <ol >
+    <li></li>
+ </ol> 
+ 
+ <dl>
+   <dt></dt>
+   <dd></dd>
+   <dt></dt>
+   <dd></dd>
+ </dl>
+ 
+ <table border=1px solid  red cellspacing=0px >
+   <caption></caption>
+   <tr>
+    <th></th>
+    <th></th>
+   </tr>
+   <tr>
+     <td></td>
+     
+   </tr>
+ </table>
+ 
+ <body style="属性名：属性值 ；属性名：属性值">
+ <head>
+    <style>
+       标签选择器{
+         属性名：属性值；
+         属性名：属性值；
+       }
+    
+    </style>
+    <link  rel=stylesheet href=css1.css>
+ </head>
+ 
+ 
+ css1.css
+    标签选择器{
+         属性名：属性值；
+         属性名：属性值；
+       }
+       
+       
+       
+    p{}
+ <p class='a'>
+ 
+   <p>
+      <input>
+   </p>
+   <input >
+   
+ </p>
+ <input>
+    .a{}
+ <p id='b'>
+    #b{} 
+    p input{}  后代标签
+    p>input{}  子代标签
+    p+input{}  相邻兄弟
+    p~input{}  普通兄弟
+表单  幂等
+<form action='*。jsp/*.asp/*.js' method='get/post'>
+  
+</form>
+
+0 黑色  #ffffff 白色  #ff0000 红  #00ff00 绿
+#0000ff 蓝
+#363636  灰
+
+0%
+<div style="border:1px black solid; width:100px;height:100px">
+
+
+</div>
+<form>
+<input >
+</form>
+

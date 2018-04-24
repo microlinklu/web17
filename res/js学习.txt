@@ -1,0 +1,52 @@
+﻿javascript
+宿主
+typescript
+单线程
+异步执行，实用回调函数实现任务队列
+es6  babel
+基础语法：变量，判断，循环
+中级语法：函数定义，函数调用
+应用：常用对象
+
+<html>
+  <head>
+    <script>
+    </script>
+    <script src="proj.js"></script>
+  </head>
+  <body>
+  
+     <script>
+     
+     </script>
+  <script src="proj.js"></script>
+  </body>
+
+</html>
+
+var a2_   字母，数字，下划线  classroom  classRoom class_room
+           _a_
+var x;   string字符串‘’“”  number 数字  boolean  布尔
+         object对象  null  空  undefined 未定义
+      
+      
+var x=aaaa   
+
+aaaa is not defined
+sfsfds//sdfdsfs  
+/*
+
+*/
+var x1//第一个圆的x坐标
+/*
+
+
+
+*/
+a=5;
+a=0.0;
+
+var a=null;
+var a;
+
+var x='images\\aaa.jpg'
